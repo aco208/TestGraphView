@@ -14,4 +14,16 @@
         android:layout_height="250dp"
         android:id="@+id/graph"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView"
+        android:layout_below="@+id/graph"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:clickable="true"
+        android:onClick="toCheckbox" />
+
 </RelativeLayout>
